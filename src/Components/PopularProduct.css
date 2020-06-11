@@ -1,0 +1,126 @@
+.popularProductCard {
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+
+}
+.popularProductCard:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important;
+
+}
+
+.popularProductCard .prodbottom {
+    position: absolute;
+    bottom: 14px;
+    left: 6px;
+    right: 6px;
+}
+
+.popularProductImg {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.popularProductImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.popularProductCard .addButton {
+    width: 100%;
+    background-color: #1A1160;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.popularProductCard .addButton:hover {
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.popularProductCard .addButton span {
+    color: #ffffff;
+    font-size:16px;
+    font-weight: 400;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.addShppingCard {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #1A1160;
+    cursor: pointer;
+}
+
+.addShppingCard:hover {
+    background-color: blue;
+}
+
+.addShppingCard i {
+   color: #ffffff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.addShppingCardFirst {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #C1C1C1;
+    margin-right: 4px;
+   display: inline-block;
+}
+
+.addShppingCardFirst i {
+   color: #1A1160;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+.productName p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.productPrice {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    padding-left: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.productTitle h4 {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.productTitle span {
+    color: blue;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-right: 6px;
+}

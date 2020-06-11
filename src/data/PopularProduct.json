@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Смартфон",
+        "about":"Huawei Y9S 6/128GB, Black",
+        "price":225000,
+        "image": "require('../Images/img5.jfif')"
+    },
+    {
+        "title": "Смартфон",
+        "about":"Samsung Y9S 6/128GB, Black",
+        "price":2220000,
+        "image": "require('../Images/img5.jfif')"
+    },
+    {
+        "title": "Смартфон",
+        "about":"Redmi 8 6/128GB, Black",
+        "price":1440000,
+        "image": "require('../Images/img5.jfif')"
+    },
+    {
+        "title": "Смартфон",
+        "about":"Huawei Y7S 6/128GB, Black",
+        "price":1700000,
+        "image": "require('../Images/img5.jfif')"
+    },
+    {
+        "title": "Смартфон",
+        "about":"iPhone 11 6/128GB, Black",
+        "price":11500000,
+        "image": "require('../Images/img5.jfif')"
+    },
+    {
+        "title": "Смартфон",
+        "about":"Huawei Y9S 6/128GB, Black",
+        "price":225000,
+        "image": "require('../Images/img5.jfif')"
+    }
+]

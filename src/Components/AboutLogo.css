@@ -1,0 +1,22 @@
+.cardlogo {
+    box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+.cardlogo i {
+    font-size: 36px;
+    color: #1A1160;
+    /* font-weight: bold; */
+    /* transform: rotate(-16deg); */
+    display: block;
+}
+.cardlogo span{
+   color: #1A1160;
+   font-weight: 500;
+   font-size: 18px;
+   display: block;
+   margin-top: 4px;
+   font-family: sans-serif;
+}
