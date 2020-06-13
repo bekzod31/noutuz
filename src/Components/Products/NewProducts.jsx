@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./PopularProduct.css";
-import data from '../data/PopularProduct.json';
+import styles from '../../style.module.css';
+import data from '../../database/PopularProduct.json';
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -22,7 +22,7 @@ const responsive = {
     items: 1
   }
 };
-class PopularComponent extends React.Component {
+class NewProducts extends React.Component {
 
 
 
@@ -50,7 +50,7 @@ class PopularComponent extends React.Component {
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
-                containerClass="carousel-container"
+                containerClass={styles.carousel-container}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 deviceType={this.props.deviceType}
                 // dotListClass="custom-dot-list-style"
@@ -67,6 +67,7 @@ class PopularComponent extends React.Component {
                         <div>
                     <p className="py-1 my-0">{element.title}</p>
                           <span className="mt-0">{element.about} </span>
+                          {element.image}
                         </div>
                         <div className="prodbottom">
                           <hr />
@@ -98,4 +99,4 @@ class PopularComponent extends React.Component {
   }
 }
 
-export default PopularComponent;
+export default NewProducts;

@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./PopularProduct.css";
-import data from '../data/PopularProduct.json';
+import data from '../../database/PopularProduct.json';
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -22,7 +22,7 @@ const responsive = {
     items: 1
   }
 };
-class NewProducts extends React.Component {
+class PopularComponent extends React.Component {
 
 
 
@@ -98,4 +98,4 @@ class NewProducts extends React.Component {
   }
 }
 
-export default NewProducts;
+export default PopularComponent;

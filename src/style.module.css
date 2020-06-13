@@ -1,0 +1,442 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ======== AboutLogo component starts ======== */
+
+
+
+.cardlogo {
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+
+.cardlogo i {
+  font-size: 36px;
+  color: #1A1160;
+  display: block;
+}
+.cardlogo span{
+ color: #1A1160;
+ font-weight: 500;
+ font-size: 18px;
+ display: block;
+ margin-top: 4px;
+ font-family: sans-serif;
+}
+
+
+
+/* ======== AboutLogo component ends ======== */
+
+
+/* ======== CenterNav component starts ======== */
+
+
+.phonenumber {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1A1160;
+}
+
+.search {
+  width: 100%;
+  height: 30px;
+  border: none;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.product {
+  position: relative;
+}
+
+.product i {
+  font-size: 40px;
+  color: #1A1160;
+}
+
+
+.count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color:white;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.centernavspan {
+  padding: 1px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.centernavspan:hover {
+  background-color: #E7EAED;
+  color: black;
+}
+
+
+.priceCoun  span:first-child {
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 2px 2px;
+  color: #1A1160;
+  font-weight: 500;
+  border-bottom: 1px solid #1A1160;
+}
+
+.priceCoun  span:last-child {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+/* ======== CenterNav component ends ======== */
+
+
+
+/* ======== FooterPart component starts ======== */
+
+footer {
+  background-color: #E0E3E6;
+}
+
+.registrationButton {
+  border: none;
+  background-color: #C1C1C1;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  border-radius: 4px;
+  padding: 3px 14px;
+  
+}
+
+.subscribeText {
+  /* font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 8px; */
+}
+
+
+.footerLeftPart {
+  /* background-color: #F1F3F4; */
+}
+
+.footerLeftPart h1 {
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #1A1160;
+}
+
+.paymentLogo {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.paymentLogo img {
+  width:80%;
+  height: 100%;
+}
+
+/* ======== FooterPart component ends ======== */
+
+
+
+/* ======== PopularProduct component starts ======== */
+
+
+.popularProductCard {
+  height: 400px;
+  transition: all 0.3s ease-in-out;
+
+}
+.popularProductCard:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) !important;
+
+}
+
+.popularProductCard .prodbottom {
+  position: absolute;
+  bottom: 14px;
+  left: 6px;
+  right: 6px;
+}
+
+.popularProductImg {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.popularProductImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.popularProductCard .addButton {
+  width: 100%;
+  background-color: #1A1160;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+}
+
+.popularProductCard .addButton:hover {
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.popularProductCard .addButton span {
+  color: #ffffff;
+  font-size:16px;
+  font-weight: 400;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.addShppingCard {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #1A1160;
+  cursor: pointer;
+}
+
+.addShppingCard:hover {
+  background-color: blue;
+}
+
+.addShppingCard i {
+ color: #ffffff;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.addShppingCardFirst {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #C1C1C1;
+  margin-right: 4px;
+ display: inline-block;
+}
+
+.addShppingCardFirst i {
+ color: #1A1160;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+
+.productName p {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding-left: 4px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.productTitle h4 {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.productTitle span {
+  color: blue;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+
+/* ======== PopularProduct component ends ======== */
+
+
+
+/* ======== SideContentMenu component starts ======== */
+
+
+.btnbars {
+  background-color: #1A1160;
+  color: #F1F3F4;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnbars i {
+  cursor: pointer;
+}
+
+.btnbars span {
+  font-size: 17px;
+  font-weight: 350;
+}
+
+.sidemenunav {
+  background-color: #E7EAED;
+  border-left: 6px solid #1A1160;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.sidemenunav::-webkit-scrollbar {
+  width: 4px;
+  background-color: #E7EAED;
+}
+
+.sidemenunav::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 6px;
+}
+
+
+.accor {
+  background-color: #E7EAED;
+  
+}
+
+.menuback {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.menuback:hover {
+  background-color: black;
+}
+
+.as {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuname {
+  background-color: white; 
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  padding-left: 4px;
+}
+
+.menuname i {
+  font-size: 16px;
+}
+
+
+
+/* ======== SideContentMenu component ends ======== */
+
+
+
+/* ======== TopNav component starts ======== */
+
+
+.topnav {
+  background-color: #1A1160; 
+  color:white; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* background-image: url("../Images/s2.jpg"); */
+}
+
+.text {
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+  position: relative;
+  cursor: pointer;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 0;
+  height: 1px;
+  background-color: white;
+  width: 0%;
+  transition: all 0.4s ease-in-out;
+}
+
+.text:hover::after {
+  width: 100%;
+}
+
+.language {
+  display: inline-block;
+  padding: 0px 4px;
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  border-radius: 4px;
+  border-bottom: 0.5px solid #fff;
+  margin-left:8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.language:hover {
+ background-color: #fff;
+ color: #1A1160;
+}
+
+
+/* ======== TopNav component ends ======== */

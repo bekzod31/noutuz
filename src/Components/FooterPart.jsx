@@ -14,29 +14,29 @@ class FooterPart extends React.Component {
                     <h4>Вы можете платить:</h4>
                     <div className="card py-2">
                         <div className="row">
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-sm-3 col-xs-6">
                                 <div className="paymentLogo">
-                                    <img src={require("../Images/paymentLogo/payme.png")} alt=""/>
+                                    <img src={require("../Images/paymentLogo/payme.png")} alt="" />
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                            <div className="paymentLogo">
-                                    <img src={require("../Images/paymentLogo/click.png")} alt=""/>
+                            <div className="col-lg-3 col-sm-3 col-xs-3">
+                                <div className="paymentLogo">
+                                    <img src={require("../Images/paymentLogo/click.png")} alt="" />
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                            <div className="paymentLogo">
-                                    <img src={require("../Images/paymentLogo/paypal.png")} alt=""/>
+                            <div className="col-lg-3 col-sm-3 col-xs-6">
+                                <div className="paymentLogo">
+                                    <img src={require("../Images/paymentLogo/paypal.png")} alt="" />
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                            <div className="paymentLogo">
-                                    <img src={require("../Images/paymentLogo/webmoney.png")} alt=""/>
+                            <div className="col-lg-3 col-sm-3 col-xs-6">
+                                <div className="paymentLogo">
+                                    <img src={require("../Images/paymentLogo/webmoney.png")} alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <hr className="bg-white"/>
+                    <hr className="bg-white" />
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="footerLeftPart">
