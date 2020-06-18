@@ -1,5 +1,4 @@
 import React from 'react';
-import './CenterNav.css';
 import { NavLink } from 'react-router-dom';
 
 
